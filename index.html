@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitacion XV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="img-principal">
+        <div class="nombre-container">
+            <img src="img/nombre.png" alt="" class="nombre-imagen">
+        </div>
+    </section>
+
+    <section class="agradecimiento">
+        <img src="img/mariposa.png" alt="" class="comillas">
+        <p>Damos gracias a Dios por el regalo maravilloso de la vida. Agradecemos por cada paso que hemos dado, por cada experiencia vivida, por las alegrías que nos han hecho sonreír y también por los momentos difíciles que nos han hecho más fuertes. Gracias por la familia que nos ha acompañado en este camino, por los amigos que han estado presentes y por cada persona que ha dejado una huella en nuestras vidas. Reconocemos que todo lo que somos y todo lo que tenemos es por Su infinita bondad.</p>
+
+        <!-- reproductor -->
+         <section class="music-player">
+            <p class="titulo">Dale Play</p>
+
+            <audio id="audio" src="music/cancion.mp3"></audio>
+
+            <input type="range" id="progress" value="0">
+
+            <div class="controls">
+                <!-- Shuffle -->
+                <button>
+                    <svg viewBox="0 0 24 24">
+                        <path d="M16 3h5v5M21 3l-6 6M3 18h2c2 0 3-1 4-2l6-6M3 6h2c2 0 3 1 4 2l1 1M21 21l-6-6" 
+                        stroke="currentColor" stroke-width="1.5" fill="none"/>
+                    </svg>
+                </button>
+
+                <!-- Prev -->
+                <button class="prev">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M6 5v14M18 6l-8 6 8 6V6z" 
+                        fill="currentColor"/>
+                    </svg>
+                </button>
+
+                <!-- Play -->
+                <button id="play">
+                    <svg id="iconPlay" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" fill="currentColor"/>
+                    </svg>
+                </button>
+
+                <!-- Next -->
+                <button class="next">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M18 5v14M6 6l8 6-8 6V6z" 
+                        fill="currentColor"/>
+                    </svg>
+                </button>
+
+                <!-- Repeat -->
+                <button>
+                    <svg viewBox="0 0 24 24">
+                        <path d="M17 1l4 4-4 4M21 5H7a4 4 0 0 0 0 8h1M7 23l-4-4 4-4M3 19h14a4 4 0 0 0 0-8h-1" 
+                        stroke="currentColor" stroke-width="1.5" fill="none"/>
+                    </svg>
+                </button>
+            </div>
+        </section>
+        <!-- fin reproductor -->
+
+        <p>Con la compañía de mi familia, te invitamos a celebrar este momento tan especial</p>
+        <h2 class="title small">Mis XV años</h2>
+    </section>
+
+    <div class="flores">
+        <img class="flores-img" src="img/flores.png" alt="">
+    </div>
+
+    <section class="fecha-info">
+        <div class="mes">
+            <p>MAYO</p>
+        </div>
+        <div class="fecha-contenedor">
+            <div class="border">
+                <p>Viernes</p>
+            </div>
+            <div class="dia">
+                <p>01</p>
+            </div>
+            <div class="border">
+                <p>2026</p>
+            </div>
+        </div>
+        <!-- fin fecha -->
+        <br>
+        <h1 class="title">Recepción</h1>
+
+        <div class="info-recepcion">
+            <div class="parr">
+                <img src="img/ubi.png" alt="" class="icono">
+                <p>Salón Dorado, Rancho de Tania</p>
+            </div>
+
+            <div class="parr">
+                <img src="img/date.png" alt="" class="icono">
+                <p>1 de mayo, 2026</p>
+            </div>
+
+            <div class="parr">
+                <img src="img/time.png" alt="" class="icono">
+                <p>7:00 P.M</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- countdown -->
+     <section class="countdown dorado">
+        <h1 class="title">Faltan</h1>
+        <div class="tiempo">
+            <div>
+                <span id="dias">00</span>
+                <p>Dias</p>
+            </div>
+
+            <span class="dots">:</span>
+
+            <div>
+                <span id="horas">00</span>
+                <p>Horas</p>
+            </div>
+
+            <span class="dots">:</span>
+
+            <div>
+                <span id="minutos">00</span>
+                <p>Min</p>
+            </div>
+
+            <span class="dots">:</span>
+
+            <div>
+                <span id="segundos">00</span>
+                <p>Seg</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- calendario -->
+     <section class="calendario">
+        <h1 class="title">El gran día</h1>
+
+        <div class="dias-semana">
+            <span>LUN</span>
+            <span>MAR</span>
+            <span>MIE</span>
+            <span>JUE</span>
+            <span>VIE</span>
+            <span>SAB</span>
+            <span>DOM</span>
+        </div>
+
+        <div class="grid-calendario">
+            <!-- Espacios vacíos antes del día 1 (Mayo 2026 empieza en viernes) -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!-- Días -->
+            <span class="dia especial">1</span>
+            <span>2</span>
+            <span>3</span>
+
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+            <span>10</span>
+
+            <span>11</span>
+            <span>12</span>
+            <span>13</span>
+            <span>14</span>
+            <span>15</span>
+            <span>16</span>
+            <span>17</span>
+
+            <span>18</span>
+            <span>19</span>
+            <span>20</span>
+            <span>21</span>
+            <span>22</span>
+            <span>23</span>
+            <span>24</span>
+
+            <span>25</span>
+            <span>26</span>
+            <span>27</span>
+            <span>28</span>
+            <span>29</span>
+            <span>30</span>
+            <span>31</span>
+        </div>
+    </section>
+
+    <div class="flores">
+        <img class="flores-img" src="img/3071668.png" alt="">
+    </div>
+
+    <section class="asistencia">
+        <h2 class="title white">Confirmar asistencia</h2>
+        <a href="https://wa.me/573156310646?text=Hola,%20confirmo%20mi%20asistencia%20a%20la%20fiesta" target="_blank">
+            <img src="img/whatsapp.png" alt="">
+            <p>Confirmar</p>
+        </a>
+    </section>
+
+    <section class="programacion">
+        <img src="img/programacion.png" alt="programacion" class="programacion-img">
+    </section>
+
+    <section class="vestimenta">
+        <img src="img/vestimenta.png" alt="vestimenta" class="vestimenta-img">
+    </section>
+
+    <section class="agradecimiento">
+        <h2 class="title">Colores Reservados</h2>
+
+        <div class="colores-container">
+            <div class="color-item">
+                <div class="circulo lila"></div>
+                <p>Lila</p>
+            </div>
+
+            <div class="color-item">
+                <div class="circulo plateado"></div>
+                <p>Plateado</p>
+            </div>
+
+            <div class="color-item">
+                <div class="circulo rosa"></div>
+                <p>Rosa pálido</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobres">
+        <div class="sobre-container">
+            <img src="img/sobre.png" alt="Sobre" class="sobre-img">
+        </div>
+        <h2 class="title white">Lluvia de Sobres</h2>
+    </section>
+
+    <section class="agradecimiento">
+        <h2 class="title">Galería</h2>
+        <p>Una colección de momentos que capturan sonrisas, esencia y la belleza de este día tan especial.</p>
+        <br>
+
+        <div class="galeria-grid">
+            <img src="img/079A0811.jpg.jpeg" alt="">
+            <img src="img/079A0846.jpg.jpeg" alt="">
+            <img src="img/079A0891.jpg.jpeg" alt="">
+            <img src="img/079A0822.jpg.jpeg" alt="">
+            <img src="img/079A0921.jpg.jpeg" alt="">
+            <img src="img/079A0829.jpg.jpeg" alt="">
+            <img src="img/079A0895.jpg.jpeg" alt="">
+            <img src="img/079A0906.jpg.jpeg" alt="">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
