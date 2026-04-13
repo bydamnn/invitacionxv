@@ -46,6 +46,7 @@ body{
     flex-direction: column;
     gap: 20px;
     padding: 50px 25px;
+    background-color: red;
 }
 
 .fondo{
