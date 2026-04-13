@@ -50,7 +50,7 @@ body{
 }
 
 .fondo{
-    background: url('./img/fondotexto') no-repeat top/cover;
+    background: url('./img/fondotexto') no-repeat top/cover !important;
 }
 
 .comillas{
