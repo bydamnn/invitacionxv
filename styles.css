@@ -48,6 +48,10 @@ body{
     padding: 50px 25px;
 }
 
+.fondo{
+    background: url('./img/fondotexto') no-repeat top/cover;
+}
+
 .comillas{
     width: 40vw;
 }
