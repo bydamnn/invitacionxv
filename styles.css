@@ -84,7 +84,7 @@ body{
 
 .title{
     font-family: 'Great Vibes', cursive;
-    color:#e473d5;
+    color:#ec92a9;
     font-size: 3rem;
 }
 
@@ -124,7 +124,7 @@ p{
     width: 90%;
     appearance: none;
     height: 5px;
-    background: #e473d5;
+    background: #ec92a9;
     border-radius: 5px;
     outline: none;
     margin-bottom: 20px;
@@ -134,7 +134,7 @@ p{
     appearance: none;
     width: 14px;
     height: 14px;
-    background: #e473d5;
+    background: #ec92a9;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -148,14 +148,14 @@ p{
 .controls button {
     background: none;
     border: none;
-    color: #e473d5;
+    color: #ec92a9;
     font-size: 20px;
     cursor: pointer;
 }
 
 #play {
     font-size: 30px;
-    background: #e473d5;
+    background: #ec92a9;
     color: black;
     border-radius: 50%;
     width: 55px;
@@ -165,7 +165,7 @@ p{
 .controls button {
     background: none;
     border: none;
-    color: #e473d5;
+    color: #ec92a9;
     cursor: pointer;
     padding: 5px;
 }
@@ -176,7 +176,7 @@ p{
 }
 
 #play {
-    background: #e473d5;
+    background: #ec92a9;
     color: black;
     border-radius: 50%;
     width: 55px;
@@ -264,7 +264,7 @@ p{
 .dia p{
     font-size: 6rem;
     line-height: 1;
-    color: #e473d5;
+    color: #ec92a9;
 }
 
 .info-recepcion{
@@ -386,7 +386,7 @@ p{
 
 /* Día seleccionado (el 1) */
 .especial{
-    background: #e473d5;
+    background: #ec92a9;
     color: black !important;
     border-radius: 8px; /* puedes poner 0 si lo quieres totalmente cuadrado */
     font-weight: bold !important;
@@ -415,7 +415,7 @@ p{
 .asistencia a{
     padding: 10px;
     width: 85vw;
-    background-color: #e473d5;
+    background-color: #ec92a9;
     border: none;
     border-radius: 100px;
     display: flex;
