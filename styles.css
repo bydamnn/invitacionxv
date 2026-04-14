@@ -103,6 +103,10 @@ p{
     font-family: 'Playfair Display', serif;
 }
 
+.time-new{
+    font-family: "Times New Roman", Times, serif;
+}
+
 /* reprductor */
 .music-player {
     text-align: center;
