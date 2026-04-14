@@ -58,8 +58,8 @@ body{
 }
 
 .fuente{
-    font-family: 'Toots';
-    font-weight: 700;
+    font-family: 'Toots' !important;
+    font-weight: 700 !important;
 }
 
 .comillas{
