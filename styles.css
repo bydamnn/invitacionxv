@@ -8,6 +8,11 @@
     gap: 0;
 }
 
+@font-face {
+    font-family: 'Toots';
+    src: url('font/Toots Extended Regular.ttf') format('truetype');
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -50,6 +55,10 @@ body{
     flex-direction: column;
     gap: 20px;
     padding: 50px 25px;
+}
+
+.fuente{
+    font-family: 'Toots';
 }
 
 .comillas{
