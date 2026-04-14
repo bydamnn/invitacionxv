@@ -52,10 +52,6 @@ body{
     padding: 50px 25px;
 }
 
-.fondo{
-    background: url('./img/fondotexto.jpeg') no-repeat top/cover !important;
-}
-
 .comillas{
     width: 40vw;
 }
