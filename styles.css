@@ -12,7 +12,11 @@ body{
     margin: 0;
     padding: 0;
     min-width: 50vw;
-    background-color: #020202;
+    background-image: url('img/fondotexto.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* 👈 esto es lo importante */
+    background-repeat: no-repeat;
 }
 
 .img-principal {
