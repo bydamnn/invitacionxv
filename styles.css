@@ -13,6 +13,11 @@
     src: url('font/Toots Extended Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'sack';
+    src: url('font/Sackers English Script Std Regular.ttf') format('truetype');
+}
+
 body{
     margin: 0;
     padding: 0;
